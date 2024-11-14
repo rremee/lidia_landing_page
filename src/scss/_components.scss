@@ -1,0 +1,20 @@
+.header-block {
+    font-weight: 800;
+    &__label {
+        color: $primary-color;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        line-height: 128%; /* 23px/18 */
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__title {
+        color: $dark-text-color;
+        font-size: 48px;
+        letter-spacing: 0.4px;
+        line-height: 135.416667%; /* 65/48px */
+    }
+}
