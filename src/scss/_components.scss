@@ -17,4 +17,44 @@
         letter-spacing: 0.4px;
         line-height: 135.416667%; /* 65/48px */
     }
+    &--margin {
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header-block {
+        &__label {
+            font-size: 16px;
+        }
+        &__title {
+            font-size: 42px;
+        }
+        &--margin {
+            margin-bottom: 70px;
+        }
+    } 
+}
+@media (max-width: 767.98px) {
+    .header-block {
+        &__label {
+            font-size: 14px;
+        }
+        &__title {
+            font-size: 36px;
+        }
+        &--margin {
+            margin-bottom: 50px;
+        }
+    } 
+}
+@media (max-width: 479.98px) {
+    .header-block {
+        &__title {
+            font-size: 32px;
+        }
+        &--margin {
+            margin-bottom: 30px;
+        }
+    } 
 }
