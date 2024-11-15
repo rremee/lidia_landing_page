@@ -1,16 +1,5 @@
-.page {
-
-    &__features {
-    }
-}
 .features {
     padding: 170px 0 200px 0;
-    &__container {
-    }
-
-    &__header-block {
-    }
-
     &__items {
         display: flex;
         justify-content: space-between;
@@ -45,14 +34,6 @@
 
     &__text {
         line-height: 187.5%; /* 30/16 */
-    }
-}
-.header-block {
-
-    &__label {
-    }
-
-    &__title {
     }
 }
 
